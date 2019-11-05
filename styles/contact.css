@@ -13,12 +13,14 @@
 
 #form-submit {
 	width: 25%;
+	background-color: white;
 	outline: none !important;
+	transition: .5s;
 }
 
 #form-submit:hover {
-	background-color: black;
-	border: solid 1px black;
+	background-color: var(--accent);
+	border: solid 1px var(--accent);
 	color: white;
 	transition: .65s;
 	cursor: pointer;

@@ -1,22 +1,25 @@
 @import url("./styles/colors.css");
 @import url("./styles/header.css");
+@import url("./styles/navbar.css");
 @import url("./styles/body.css");
 @import url("./styles/contact.css");
+@import url("./styles/footer.css");
+
+html {
+	scroll-behavior: smooth;
+}
 
 body {
 	font-family: 'Orienta', sans-serif;
 }
 
-#header {
-	height: 100vh;
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	text-align: left;
 }
 
-#body-content section {
+#header  {
 	height: 100vh;
-}
-
-html {
-	scroll-behavior: smooth;
 }
 
 @media only screen and (max-width: 600px) {}

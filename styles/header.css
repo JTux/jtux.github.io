@@ -11,6 +11,15 @@
 	width: 100%
 }
 
+.center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%
+}
+
 .profile-picture {
 	text-align: right;
 	position: absolute;
@@ -25,13 +34,20 @@
 
 .down-arrow {
 	position: absolute;
-	top: 45vh;
+	top: 40vh;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	border-top: 1em solid var(--primary-text);
 	border-left: 1em solid transparent;
 	border-right: 1em solid transparent;
+	transition: .45s;
 	cursor: pointer;
+}
+
+.down-arrow:hover {
+	transition: .45s;
+	border-left: 2em solid transparent;
+	border-right: 2em solid transparent;
 }
 
 @media only screen and (max-width: 600px) {
@@ -42,16 +58,18 @@
 		transform: translate(0, -50%);
 		text-align: center;
 	}
+	#header-content h1, #header-content h2 {
+		text-align: center !important;
+	}
 	.profile-picture {
 		position: relative;
 		right: 0;
-		text-align: center !important;
 	}
 	#header-text {
 		position: relative;
 		margin-top: 2em;
 	}
 	.down-arrow {
-		top: 70vh;
+		top: 65vh;
 	}
 }

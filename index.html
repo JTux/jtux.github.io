@@ -18,10 +18,10 @@
 		<div id="header-content">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-sm-5">
+					<div class="col-sm-6">
 						<img src="./assets/android-chrome-192x192.png" class="profile-picture">
 					</div>
-					<div class="col-sm-7">
+					<div class="col-sm-6">
 						<div id="header-text">
 							<h1>Joshua Tucker</h1>
 							<h2>.NET Developer</h2>
@@ -34,7 +34,7 @@
 			</a>
 		</div>
 	</header>
-	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark my-nav">
 		<a class="navbar-brand active" href="#">Joshua L Tucker</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
 			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,13 +76,36 @@
 		</section>
 		<section id="contact" class="container-fluid">
 			<form action="https://formspree.io/mpzavloj" method="POST">
+				<h3>Contact Me:</h3>
 				<input type="email" name="_replyto" placeholder="Your email goes here..." class="form-input rounded" required />
 				<input type="text" name="subject" placeholder="The subject goes here..." class="form-input rounded" />
-				<textarea name="message" placeholder="Your message goes here..." class="form-input rounded" required></textarea>
+				<textarea name="message" placeholder="Your message goes here..." class="form-input rounded" rows="6"
+					required></textarea>
 				<button id="form-submit" type="submit" class="form-input rounded">Send</button>
 			</form>
 		</section>
 	</div>
+
+	<footer id="main-footer">
+		<ul class="center horizontal-list">
+			<li>
+				<a href="https://docs.google.com/document/d/1vw-ZHol7Nxwt-aUjvtIc8I9YYCcxNZ7jxnEvJynidn0/edit"
+					target="_blank">Resume</a>
+			</li>
+			<li>|</li>
+			<li>
+				<a href="https://www.linkedin.com/in/joshualtucker/" target="_blank">LinkedIn</a>
+			</li>
+			<li>|</li>
+			<li>
+				<a href="https://github.com/JTux" target="_blank">GitHub</a>
+			</li>
+			<li>|</li>
+			<li>
+				<a href="#">Back to Top</a>
+			</li>
+		</ul>
+	</footer>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
