@@ -1,3 +1,7 @@
+@import url("./styles/colors.css");
+@import url("./styles/body.css");
+@import url("./styles/contact.css");
+
 #header {
 	height: 100vh;
 }
@@ -6,6 +10,12 @@
 	height: 100vh;
 }
 
-#body-content section:nth-of-type(even) {
-	background-color: lightgreen;
+html {
+	scroll-behavior: smooth;
 }
+
+@media only screen and (max-width: 600px) {}
+@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1200px) {}

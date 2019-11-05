@@ -1,0 +1,13 @@
+#body-content {
+	color: var(--primary-text);
+	margin: auto;
+}
+
+#body-content section:nth-of-type(even) {
+	background-color: var(--primary-bg-color);
+	color: var(--accent-text);
+}
+
+#body-content section {
+	padding: 5em 5%;
+}

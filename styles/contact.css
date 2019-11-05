@@ -1,0 +1,50 @@
+#contact form {
+	margin: auto;
+	text-align: center;
+}
+
+.form-input {
+	width: 100%;
+	border: solid 1px dimgray;
+	padding: .4em;
+	outline: none;
+	margin-bottom: 1em;
+}
+
+#form-submit {
+	width: 25%;
+	outline: none !important;
+}
+
+#form-submit:hover {
+	background-color: black;
+	border: solid 1px black;
+	color: white;
+	transition: .65s;
+	cursor: pointer;
+}
+
+#message {
+	resize: none;
+}
+
+@media only screen and (max-width: 600px) {
+	#contact form {
+		width: 90%;
+	}
+	#form-submit {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	#contact form {
+		width: 70%;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	#contact form {
+		width: 65%;
+	}
+}
