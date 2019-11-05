@@ -1,6 +1,6 @@
 #contact form {
-	margin: auto;
 	text-align: center;
+	padding-left: 2em;
 }
 
 .form-input {
@@ -31,22 +31,13 @@
 }
 
 @media only screen and (max-width: 600px) {
-	#contact form {
-		width: 90%;
+	#contact-form {
+		margin-top: 1em;
 	}
 	#form-submit {
 		width: 100%;
 	}
-}
-
-@media only screen and (min-width: 600px) {
 	#contact form {
-		width: 70%;
-	}
-}
-
-@media only screen and (min-width: 1200px) {
-	#contact form {
-		width: 65%;
+		padding-left: 0;
 	}
 }

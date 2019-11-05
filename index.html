@@ -34,6 +34,7 @@
 			</a>
 		</div>
 	</header>
+
 	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark my-nav">
 		<a class="navbar-brand active" href="#">Joshua L Tucker</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -60,29 +61,50 @@
 
 	<div id="body-content">
 		<section id="about">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores expedita fugiat sunt provident debitis
-				aperiam sint reiciendis nemo voluptatum, adipisci odio at quos! Fugit tempora iusto, expedita ut sapiente id.
+			<h3>A Bit About Me</h3>
+			<p>{{interestingStuff}}
 			</p>
 		</section>
+
 		<section id="skills">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores expedita fugiat sunt provident debitis
-				aperiam sint reiciendis nemo voluptatum, adipisci odio at quos! Fugit tempora iusto, expedita ut sapiente id.
+			<h3>Some of My Skills</h3>
+			<p>{{impressiveThings}}
 			</p>
 		</section>
+
 		<section id="projects">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores expedita fugiat sunt provident debitis
-				aperiam sint reiciendis nemo voluptatum, adipisci odio at quos! Fugit tempora iusto, expedita ut sapiente id.
+			<h3>My Projects</h3>
+			<p>{{greatIdeas}}
 			</p>
 		</section>
+
 		<section id="contact" class="container-fluid">
-			<form action="https://formspree.io/mpzavloj" method="POST">
-				<h3>Contact Me:</h3>
-				<input type="email" name="_replyto" placeholder="Your email goes here..." class="form-input rounded" required />
-				<input type="text" name="subject" placeholder="The subject goes here..." class="form-input rounded" />
-				<textarea name="message" placeholder="Your message goes here..." class="form-input rounded" rows="6"
-					required></textarea>
-				<button id="form-submit" type="submit" class="form-input rounded">Send</button>
-			</form>
+			<div class="row">
+				<div class="col-sm-4">
+					<h3>Interested in learning more? <br />Get in touch!</h3>
+					<p>
+						If you would like to learn more or start a dialogue please feel free to reach out.
+					</p>
+					<p>
+						Business inquiry? Do you wish to start a dialogue? You can reach me at
+						<a href="mailto:theJLTucker@gmail.com?Subject=Salutations" target="_blank">theJLTucker@gmail.com.</a>
+					</p>
+					<p>
+						Interested in connecting with me? Connect through
+						<a href="https://www.linkedin.com/in/joshualtucker/" target="_blank">LinkedIn!</a>
+					</p>
+				</div>
+				<div class="col-sm-8" id="contact-form">
+					<form action="https://formspree.io/mpzavloj" method="POST">
+						<h3>Comments or Questions?<br />Shoot me an email:</h3>
+						<input type="email" name="_replyto" placeholder="your@email.here" class="form-input rounded" required />
+						<input type="text" name="subject" placeholder="Insert Topical Subject Here" class="form-input rounded" />
+						<textarea name="message" placeholder="And finally your message goes here. You get the picture..."
+							class="form-input rounded" rows="6" required></textarea>
+						<button id="form-submit" type="submit" class="form-input rounded">Send</button>
+					</form>
+				</div>
+			</div>
 		</section>
 	</div>
 
