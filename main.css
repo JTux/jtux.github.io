@@ -1,6 +1,11 @@
 @import url("./styles/colors.css");
+@import url("./styles/header.css");
 @import url("./styles/body.css");
 @import url("./styles/contact.css");
+
+body {
+	font-family: 'Orienta', sans-serif;
+}
 
 #header {
 	height: 100vh;
