@@ -7,9 +7,10 @@ This README should help point you in the right direction if you have any questio
 
 ## Some other Links
 Any public projects I've worked on can be found on GitHub [here](https://www.github.com/jtux?tab=repositories).
+
 You can also find me on [LinkedIn](https://www.linkedin.com/in/joshualtucker/).
 
 ## Technologies Used
-The general structure  is built out primarily using HTML5 and CSS3.
-To help aid the responsive design I am utilizing [Bootstrap 4]([https://getbootstrap.com/](https://getbootstrap.com/)).
-A small amount of jQuery was used to add a little more polish.
+- The general structure  is built out primarily using HTML5 and CSS3.
+- To help aid the responsive design I am utilizing [Bootstrap 4]([https://getbootstrap.com/](https://getbootstrap.com/)).
+- A small amount of jQuery was used to add a little more polish.
