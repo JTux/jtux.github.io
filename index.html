@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Orienta&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/fa/css/all.min.css">
 	<link rel="stylesheet" href="./main.css">
 	<link rel='icon' href='./favicon.ico' type='image/x-icon' />
 	<title>Joshua L Tucker Portfolio</title>
@@ -68,8 +69,32 @@
 
 		<section id="skills">
 			<h3>Some of My Skills</h3>
-			<p>{{impressiveThings}}
-			</p>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="skill-display rounded">
+						<h4>Technical</h4>
+						<hr />
+						<ul>
+							<li>C#</li>
+							<li>ASP.NET</li>
+							<li>Razor &amp; Razor Pages</li>
+							<li>HTML &amp; CSS</li>
+							<li>Bootstrap</li>
+							<li>Angular 2+</li>
+							<li>SQL</li>
+							<li>.NET Framework</li>
+							<li>.NET Core</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="skill-display rounded">
+						<h4>Other</h4>
+						<hr />
+
+					</div>
+				</div>
+			</div>
 		</section>
 
 		<section id="projects">
@@ -98,7 +123,8 @@
 					<form action="https://formspree.io/mpzavloj" method="POST">
 						<h3>Comments or Questions?<br />Shoot me an email:</h3>
 						<input type="email" name="_replyto" placeholder="your@email.here" class="form-input rounded" required />
-						<input type="text" name="subject" placeholder="Insert Topical Subject Here" class="form-input rounded" required/>
+						<input type="text" name="subject" placeholder="Insert Topical Subject Here" class="form-input rounded"
+							required />
 						<textarea name="message" placeholder="And finally your message goes here. You get the picture..."
 							class="form-input rounded" rows="6" required></textarea>
 						<button id="form-submit" type="submit" class="form-input rounded">Send</button>
@@ -112,19 +138,19 @@
 		<ul class="center horizontal-list">
 			<li>
 				<a href="https://docs.google.com/document/d/1vw-ZHol7Nxwt-aUjvtIc8I9YYCcxNZ7jxnEvJynidn0/edit"
-					target="_blank">Resume</a>
+					target="_blank"><i class="fas fa-file-alt"></i> Resume</a>
 			</li>
 			<li>|</li>
 			<li>
-				<a href="https://www.linkedin.com/in/joshualtucker/" target="_blank">LinkedIn</a>
+				<a href="https://www.linkedin.com/in/joshualtucker/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
 			</li>
 			<li>|</li>
 			<li>
-				<a href="https://github.com/JTux" target="_blank">GitHub</a>
+				<a href="https://github.com/JTux" target="_blank"><i class="fab fa-github"></i> GitHub</a>
 			</li>
 			<li>|</li>
 			<li>
-				<a href="#">Back to Top</a>
+				<a href="#"><i class="fas fa-angle-double-up"></i> Back to Top</a>
 			</li>
 		</ul>
 	</footer>
