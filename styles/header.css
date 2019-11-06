@@ -32,6 +32,11 @@
 	bottom: 0;
 }
 
+@keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
 .down-arrow {
 	position: absolute;
 	top: 40vh;
@@ -42,6 +47,7 @@
 	border-right: 1em solid transparent;
 	transition: .45s;
 	cursor: pointer;
+	animation: fadein 4s;
 }
 
 .down-arrow:hover {
