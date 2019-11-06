@@ -28,3 +28,15 @@
 .horizontal-list a:active {
 	color: white;
 }
+
+#main-footer ul li i {
+	margin-right: .25em;
+}
+
+@media only screen and (max-width: 600px) {
+	#main-footer ul li i {
+		visibility: hidden;
+		margin: 0;
+		width: 0;
+	}
+}
