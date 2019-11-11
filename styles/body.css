@@ -22,7 +22,7 @@
 }
 
 #body-content section:nth-of-type(even) a:hover {
-	color: var(--accent);
+	color: var(--accent-light);
 }
 
 #body-content section {

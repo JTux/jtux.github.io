@@ -1,4 +1,4 @@
-.skill-display {
+.table-display {
 	margin: 1em 0;
 	padding: 1em 1.25em;
 	border: solid 2px var(--accent);
@@ -6,32 +6,38 @@
 	background-color: white;
 }
 
-.skill-display hr {
+.table-display hr {
 	margin-top: 0;
 	border-top: 1px solid var(--accent-transparent);
 }
 
-.skill-display ul {
+.table-display ul {
 	display: flex;
 	flex-wrap: wrap;
 	list-style: none;
-	/* text-align: center; */
 	padding: 0;
 }
 
-.skill-display ul li {
+.table-display ul li {
 	-webkit-box-flex: 0;
-	-ms-flex: 0 0 33.333333%;
-	flex: 0 0 33.333333%;
-	max-width: 33.333333%;
+	-ms-flex: 0 0 30%;
+	flex: 0 0 30%;
+	max-width: 30%;
 	overflow: auto;
+	border-bottom: dotted 1px var(--accent-transparent);
+	padding-top: 2px;
+	margin: 0 1%;
 }
 
 @media only screen and (max-width: 800px) {
-	.skill-display ul li {
+	.table-display ul li {
 		-webkit-box-flex: 0;
-		-ms-flex: 0 0 50%;
-		flex: 0 0 50%;
-		max-width: 50%;
+		-ms-flex: 0 0 48%;
+		flex: 0 0 48%;
+		max-width: 48%;
+	}
+	.mobile-break::after {
+		content: "\A";
+		white-space: pre;
 	}
 }
