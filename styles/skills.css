@@ -24,7 +24,6 @@
 	flex: 0 0 30%;
 	max-width: 30%;
 	overflow: auto;
-	border-bottom: dotted 1px var(--accent-transparent);
 	padding-top: 2px;
 	margin: 0 1%;
 }
@@ -33,6 +32,7 @@
 	.table-display ul li {
 		-webkit-box-flex: 0;
 		-ms-flex: 0 0 48%;
+		border-bottom: dotted 1px var(--accent-transparent);
 		flex: 0 0 48%;
 		max-width: 48%;
 	}
