@@ -68,12 +68,13 @@
 
 @keyframes progress {
 	0% {
+		opacity: 1;
 		width: 0%;
 	}
-	50% {
+	45%, 50% {
 		width: 100%;
 	}
-	75%, 91% {
+	75% {
 		opacity: 0;
 		width: 0px;
 	}

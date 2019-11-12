@@ -8,7 +8,8 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 100%
+	width: 100%;
+	cursor: default;
 }
 
 .center {
@@ -17,7 +18,7 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 100%
+	width: 100%;
 }
 
 .profile-picture {
@@ -33,13 +34,25 @@
 }
 
 @keyframes fadein {
-	from { opacity: 0; }
-	to   { opacity: .75; }
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: .75;
+	}
+}
+
+.full-screen {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
 }
 
 .down-arrow {
 	position: absolute;
-	top: 40vh;
+	bottom: 10vh;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	border-top: 1em solid var(--primary-text);
@@ -78,6 +91,6 @@
 		margin-top: 2em;
 	}
 	.down-arrow {
-		top: 65vh;
+		bottom: 15vh;
 	}
 }
