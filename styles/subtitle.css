@@ -27,27 +27,27 @@
 .subtitle-wrapper li {
 	position: absolute;
 	width: 100%;
-	top: -225px;
+	top: -150px;
 }
 
 .subtitle-wrapper li:nth-of-type(1) {
-	animation: cycle 15s linear infinite;
+	animation: first-item 15s linear infinite;
 }
 
 .subtitle-wrapper li:nth-of-type(2) {
-	animation: cycle2 15s linear infinite;
+	animation: second-item 15s linear infinite;
 }
 
 .subtitle-wrapper li:nth-of-type(3) {
-	animation: cycle3 15s linear infinite;
+	animation: third-item 15s linear infinite;
 }
 
 .subtitle-wrapper li:nth-of-type(4) {
-	animation: cycle4 15s linear infinite;
+	animation: fourth-item 15s linear infinite;
 }
 
 .subtitle-wrapper li:nth-of-type(5) {
-	animation: cycle5 15s linear infinite;
+	animation: fifth-item 15s linear infinite;
 }
 
 .progress-bar {
@@ -83,7 +83,7 @@
 	}
 }
 
-@keyframes cycle {
+@keyframes first-item {
 	0% {
 		opacity: 1;
 		top: 0px;
@@ -98,24 +98,22 @@
 	21% {
 		opacity: 0;
 	}
-	40% {
-		top: -225px;
-	}
-	90%, 95% {
-		top: -225px;
+	40%, 90% {
 		opacity: 0;
+		top: -150px;
 	}
-	100% {
+	95%, 100% {
+		opacity: 1;
 		top: 0px;
 	}
 }
 
-@keyframes cycle2 {
-	0%, 15% {
+@keyframes second-item {
+	0%, 10% {
 		opacity: 0;
-		top: -225px;
+		top: -150px;
 	}
-	20% {
+	15% {
 		opacity: 1;
 		top: 0px;
 	}
@@ -130,19 +128,19 @@
 		opacity: 0;
 	}
 	60%, 80% {
-		top: -225px;
+		top: -150px;
 	}
 	100% {
 		opacity: 0;
 	}
 }
 
-@keyframes cycle3 {
-	0%, 35% {
+@keyframes third-item {
+	0%, 30% {
 		opacity: 0;
-		top: -225px;
+		top: -150px;
 	}
-	40% {
+	35% {
 		opacity: 1;
 		top: 0px;
 	}
@@ -157,17 +155,17 @@
 		opacity: 0;
 	}
 	80%, 100% {
-		top: -225px;
+		top: -150px;
 		opacity: 0;
 	}
 }
 
-@keyframes cycle4 {
-	0%, 55% {
+@keyframes fourth-item {
+	0%, 50% {
 		opacity: 0;
-		top: -225px;
+		top: -150px;
 	}
-	60% {
+	55% {
 		opacity: 1;
 		top: 0px;
 	}
@@ -182,17 +180,17 @@
 		opacity: 0;
 	}
 	90%, 100% {
-		top: -225px;
+		top: -150px;
 		opacity: 0;
 	}
 }
 
-@keyframes cycle5 {
-	0%, 75% {
+@keyframes fifth-item {
+	0%, 70% {
 		opacity: 0;
-		top: -225px;
+		top: -150px;
 	}
-	80% {
+	75% {
 		opacity: 1;
 		top: 0px;
 	}
