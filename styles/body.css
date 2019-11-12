@@ -28,3 +28,11 @@
 #body-content section {
 	padding: 5em 5% 2em 5%;
 }
+
+#body-content hr {
+	border-color: var(--accent-transparent);
+}
+
+#body-content section:nth-of-type(even) hr {
+	border-color: #ffffff80;
+}

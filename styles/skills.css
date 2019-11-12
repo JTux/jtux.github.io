@@ -1,6 +1,6 @@
 .table-display {
 	margin: 1em 0;
-	padding: 1em 1.25em;
+	padding: .75em 1.25em;
 	border: solid 2px var(--accent);
 	color: var(--accent);
 	background-color: white;
@@ -25,7 +25,13 @@
 	max-width: 30%;
 	overflow: auto;
 	padding-top: 2px;
-	margin: 0 1%;
+	padding-left: 5px;
+	margin: 2px 1%;
+	border-left: solid 2px var(--accent-transparent);
+}
+
+.table-display hr {
+	border-color: var(--accent-transparent) !important;
 }
 
 @media only screen and (max-width: 800px) {
@@ -33,6 +39,7 @@
 		-webkit-box-flex: 0;
 		-ms-flex: 0 0 48%;
 		border-bottom: dotted 1px var(--accent-transparent);
+		border-left-color: transparent;
 		flex: 0 0 48%;
 		max-width: 48%;
 	}

@@ -22,7 +22,7 @@
 	background-color: var(--accent);
 	border: solid 1px var(--accent);
 	color: white;
-	transition: .65s;
+	transition: .5s;
 	cursor: pointer;
 }
 

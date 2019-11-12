@@ -4,7 +4,7 @@
 }
 
 #main-brand:hover {
-	text-shadow: 0 0px 5px #fff;
+	text-shadow: 0 0px 5px var(--accent-light);
 	transition: all 200ms ease-out;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .logo:hover, #main-brand:hover .logo {
-	box-shadow: 0px 0px 3px 1px #fff;
+	box-shadow: 0px 0px 3px 1px var(--accent-light);
 	transition: all 200ms ease-out;
 }
 
