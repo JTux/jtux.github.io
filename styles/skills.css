@@ -34,7 +34,7 @@
 	border-color: var(--accent-transparent) !important;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
 	.table-display ul li {
 		-webkit-box-flex: 0;
 		-ms-flex: 0 0 48%;
